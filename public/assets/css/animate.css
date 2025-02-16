@@ -3186,3 +3186,36 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
+
+/* Atur warna default untuk SVG di dalam tombol */
+.nav-link svg {
+  fill: #000; /* hitam */
+  transition: fill 0.3s ease; /* transisi halus */
+}
+
+/* Atur warna ketika tombol dalam keadaan aktif */
+.nav-link.active svg {
+  fill: #fff; /* putih */
+}
+
+/* Atur warna default untuk font icon (misal menggunakan flaticon) */
+.nav-link .flaticon-tr-chart-user {
+  color: #000; /* hitam */
+  transition: color 0.3s ease; /* transisi halus */
+}
+
+/* Atur warna untuk font icon ketika tombol aktif */
+.nav-link.active .flaticon-tr-chart-user {
+  color: #fff; /* putih */
+}
+
+/* Atur warna default untuk font icon (misal menggunakan flaticon) */
+.nav-link .flaticon-team-building {
+  color: #000; /* hitam */
+  transition: color 0.3s ease; /* transisi halus */
+}
+
+/* Atur warna untuk font icon ketika tombol aktif */
+.nav-link.active .flaticon-team-building {
+  color: #fff; /* putih */
+}
