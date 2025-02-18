@@ -21,7 +21,7 @@ const SingleBanner3 = ({ banner }) => {
                                 )}
                             </ul>
                             <div className="button">
-                                <Link className="btn btn-theme secondary btn-md animation" href="/contact-us">{btnText}</Link>
+                                <Link className="btn btn-theme danger btn-md animation" href="/contact-us">{btnText}</Link>
                             </div>
                         </div>
                     </div>

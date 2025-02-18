@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "bgThumb": "15.jpg",
-        "subTitle": "Permanent Life",
-        "title": "The easiest way get insurance",
-        "btnText": "Apply Now",
+        "bgThumb": "banner1.png",
+        "subTitle": "Leadership Camp",
+        "title": "Be the Leader of Tomorrow, Start Today!",
+        "btnText": "Contact Us!",
         "shapeThumb": "43.png",
         "listInfo": [
             {
                 "id": 1,
-                "listData": "$1000 Average yearly savings"
+                "listData": "Special Program to Youth Leader!"
             },
             {
                 "id": 2,
-                "listData": "Get 20%* off Home"
+                "listData": "Build a productive personality"
             }
         ]
     },
     {
         "id": 2,
-        "bgThumb": "16.jpg",
-        "subTitle": "Home & Renters",
-        "title": "Protecting future inspiring hope",
-        "btnText": "Apply Now",
+        "bgThumb": "banner2.png",
+        "subTitle": "Consulting",
+        "title": "Level Up Your Professional Game",
+        "btnText": "Contact Us!",
         "shapeThumb": "43.png",
         "listInfo": [
             {
                 "id": 1,
-                "listData": "$1000 Average yearly savings"
+                "listData": "Design Modul Training"
             },
             {
                 "id": 2,
-                "listData": "Get 20%* off Home"
+                "listData": "Organizational Development"
             }
         ]
     }

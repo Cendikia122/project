@@ -7,7 +7,7 @@ import useStickyMenu from '../hooks/useStickyMenu';
 import useSubMenuToggle from '../hooks/useSubMenuToggle';
 import useSidebarMenu from '../hooks/useSidebarMenu';
 import Image from 'next/image';
-import logo from '@/assets/img/logo.png';
+import logo from '@/assets/img/fasellogo.png';
 
 const MainHeaderStyle1 = () => {
 
@@ -18,7 +18,7 @@ const MainHeaderStyle1 = () => {
     return (
         <>
             <header>
-                <nav className={`navbar mobile-sidenav navbar-style-one navbar-sticky navbar-default validnavs white navbar-fixed on menu-center no-full ${isMenuSticky ? 'sticked' : 'no-background'} ${isOpen ? "navbar-responsive force-sticky" : ""}`}>
+                <nav className={`navbar mobile-sidenav navbar-style-one navbar-sticky navbar-default validnavs blacks navbar-fixed on menu-center no-full ${isMenuSticky ? 'sticked' : 'no-background'} ${isOpen ? "navbar-responsive force-sticky" : ""}`}>
                     <div className="container">
                         <div className="row align-center">
                             <div className="col-xl-2 col-lg-3 col-md-2 col-sm-1 col-1">

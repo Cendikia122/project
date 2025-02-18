@@ -6,7 +6,7 @@ import Link from 'next/link';
 const BreadCrumb = ({ breadCrumb, title }) => {
     return (
         <>
-            <div className="breadcrumb-area bg-cover shadow dark text-center text-light" style={{ backgroundImage: "url(/assets/img/banner/10.jpg)" }}>
+            <div className="breadcrumb-area bg-cover shadow dark text-center text-light" style={{ backgroundImage: "url(/assets/img/banner/faselcontact.png)" }}>
                 <div className="breadcrum-shape">
                     <Image src={breadCrumbThumb} alt="Image Not Found" />
                 </div>
