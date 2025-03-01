@@ -1,22 +1,44 @@
-"use client"
-import React from 'react';
-import { toast } from 'react-toastify';
+"use client";
+import { useState } from "react";
+import { toast } from "react-toastify";
 
 const FooterNewsLetter = () => {
+    const [email, setEmail] = useState("");
 
-    const handleSubscribe = (event) => {
-        event.preventDefault()
-        event.target.reset()
-        toast.success("Thanks For Subscribe")
-    }
+    const handleSubscribe = async (event) => {
+        event.preventDefault();
+
+        // Ganti dengan Getform Endpoint milikmu
+        const getformURL = "https://getform.io/f/bllyzveb";
+
+        const response = await fetch(getformURL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email }),
+        });
+
+        if (response.ok) {
+            toast.success("Thanks For Subscribe!");
+            setEmail(""); // Reset input
+        } else {
+            toast.error("Failed to subscribe. Try again.");
+        }
+    };
 
     return (
-        <>
-            <form onSubmit={handleSubscribe}>
-                <input type="email" placeholder="Your Email" className="form-control" name="email" autoComplete='off' required />
-                <button type="submit"> Subscribe</button>
-            </form>
-        </>
+        <form onSubmit={handleSubscribe}>
+            <input
+                type="email"
+                placeholder="Your Email"
+                className="form-control"
+                name="email"
+                autoComplete="off"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+            />
+            <button type="submit">Subscribe</button>
+        </form>
     );
 };
 

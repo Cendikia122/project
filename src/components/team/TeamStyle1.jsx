@@ -11,11 +11,11 @@ const TeamStyle1 = ({ sectionClass, fullTeam, teamTitle }) => {
                 {teamTitle ? <TeamTitle /> : <></>}
 
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         {fullTeam ?
                             <>
                                 {TeamData.map(team =>
-                                    <div className="col-xl-3 col-md-6" key={team.id}>
+                                    <div className="col-md-auto" key={team.id}>
                                         <SingleTeam1 team={team} />
                                     </div>
                                 )}

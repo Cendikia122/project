@@ -10,7 +10,7 @@ const SingleTeam1 = ({ team }) => {
         <>
             <div className={`team-style-one ${activeClass}`}>
                 <div className="thumb">
-                    <Image src={`/assets/img/team/${memberThumb}`} width={800} height={800} alt="Image Not Found" />
+                    <Image src={`/assets/img/team/ardian.png`} width={800} height={800} alt="Ardian Rangga" />
                     <div className="social">
                         <ul>
                             <SocialShareStyle3 />

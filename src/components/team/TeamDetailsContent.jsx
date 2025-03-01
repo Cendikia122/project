@@ -22,7 +22,8 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                 <h2>{[name]}</h2>
                                 <span>{[designation]}</span>
                                 <p>
-                                    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring house in never fruit up. Pasture imagine my garrets..
+                                Specialized in Experiential Learning for Leadership Development, Team Building, and Personal Growth. 
+                                I crafted dynamic programs that enhanced strategic thinking, collaboration, and individual potential, particularly for Gen Z. 
                                 </p>
 
                                 <ul>
@@ -32,7 +33,7 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                     </li>
                                     <li>
                                         <strong>Phone:</strong>
-                                        <a href="tel:123-456-7890">+44-20-7328-4499</a>
+                                        <a href="tel:123-456-7890">+62 812 9831 9944</a>
                                     </li>
                                 </ul>
                                 <div className="social">

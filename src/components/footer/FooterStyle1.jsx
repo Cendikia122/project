@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import shape7 from '@/assets/img/shape/7.png';
 import shape9 from '@/assets/img/shape/9.png';
-import logoLight from '@/assets/img/logo-light.png';
+import logoLight from '@/assets/img/fasel-light.png';
 import Link from 'next/link';
 import SocialShare from '../utilities/SocialShare';
 import FooterNewsLetter from '../form/FooterNewsLetter';
@@ -31,12 +31,12 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                         Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
                                     </p>
                                     <div className="opening-hours">
-                                        <h5>Opening Hours</h5>
+                                        <h5>Service Hours</h5>
                                         <ul>
                                             <li>
-                                                <div className="working-day">Monday – Sunday:</div>
+                                                <div className="working-day">Monday – Saturday:</div>
                                                 <div className="marker"></div>
-                                                <div className="working-hour">2pm – 2pm</div>
+                                                <div className="working-hour">8am – 5pm</div>
                                             </li>
                                             <li>
                                                 <div className="working-day">Sunday:</div>
@@ -52,16 +52,13 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Company</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/about-us">Compnay Profile</Link>
+                                            <Link href="/about-us">Company Profile</Link>
                                         </li>
                                         <li>
                                             <Link href="/contact-us">Help Center</Link>
                                         </li>
                                         <li>
                                             <Link href="/about-us">Career</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/pricing">Plans & Pricing</Link>
                                         </li>
                                         <li>
                                             <Link href="/contact-us">Contact</Link>
@@ -74,19 +71,19 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/services-details/1">Manage investment</Link>
+                                            <Link href="/services-details/1">Training</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Business planning</Link>
+                                            <Link href="/services-details/1">Team Building</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Financial advices</Link>
+                                            <Link href="/services-details/1">Leadership Class</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Tax strategy</Link>
+                                            <Link href="/services-details/1">Capacity Building</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Insurance strategy</Link>
+                                            <Link href="/services-details/1">Consulting</Link>
                                         </li>
                                     </ul>
                                 </div>

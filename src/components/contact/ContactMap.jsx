@@ -5,7 +5,7 @@ const ContactMap = () => {
         <>
             <div className="maps-area bg-gray overflow-hidden">
                 <div className="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48388.929990966964!2d-74.00332!3d40.711233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1653598669477!5m2!1sen!2sus"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126829.29180934886!2d106.70948903171829!3d-6.595186739249475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5b7ad0f824b%3A0x4c71fd1b0b8ae76d!2sBogor%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1740572866349!5m2!1sen!2sid"></iframe>
                 </div>
             </div>
         </>

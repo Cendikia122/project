@@ -14,7 +14,7 @@ const HeaderTopStyle2 = () => {
                                     </div>
                                     <div className="info">
                                         <strong>Address</strong>
-                                        70240 Avenue of the Moon, California
+                                        Bogor Indonesia
                                     </div>
                                 </li>
                                 <li>
@@ -23,7 +23,7 @@ const HeaderTopStyle2 = () => {
                                     </div>
                                     <div className="info">
                                         <strong>Phone</strong>
-                                        <a href="tel:+4733378901">+4733378901</a>
+                                        <a href="tel:+4733378901">+62 812 9831 9944</a>
                                     </div>
                                 </li>
                             </ul>
@@ -35,7 +35,7 @@ const HeaderTopStyle2 = () => {
                                 </div>
                                 <div className="info">
                                     <p>Have any Questions?</p>
-                                    <h5><a href="mailto:info@crysta.com">info@bestup.com</a></h5>
+                                    <h5><a href="mailto:incfasel@gmail.com">incfasel@gmail.com</a></h5>
                                 </div>
                             </div>
                         </div>

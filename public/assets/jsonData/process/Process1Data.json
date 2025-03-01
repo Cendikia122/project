@@ -1,26 +1,26 @@
 [
     {
         "id": "1",
-        "thumb": "3.jpg",
-        "activeClass": "active",
+        "thumb": "process1.png",
+        "activeClass": "",
         "steps": "01",
-        "title": "Differentiate from the competition",
-        "text": "Capitalize on low hanging fruit to identify a ballpark value added."
+        "title": "Expert",
+        "text": "Our team of instructors are experienced in the field of soft skills. "
     },
     {
         "id": "2",
-        "thumb": "6.jpg",
+        "thumb": "process2.png",
         "activeClass": "",
         "steps": "02",
-        "title": "Target the right people effectively",
-        "text": "Capitalize on low hanging fruit to identify a ballpark value added."
+        "title": "Flexibility",
+        "text": "We offer customized training programs tailored to your specific needs."
     },
     {
         "id": "3",
-        "thumb": "5.jpg",
+        "thumb": "process3.png",
         "activeClass": "",
         "steps": "03",
-        "title": "Communicate your story consistently",
-        "text": "Capitalize on low hanging fruit to identify a ballpark value added."
+        "title": "Result",
+        "text": "We take pride in our tangible achievements and proven outcomes!"
     }
 ]

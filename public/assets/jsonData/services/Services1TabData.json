@@ -8,30 +8,30 @@
             {
                 "id": 1,
                 "animationDelay": 0,
-                "icon": "flaticon-personal",
-                "title": "Investment Planning",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "icon": "flaticon-megaphone",
+                "title": "Public Speaking",
+                "text": " is a crucial skill that enables individuals to communicate their ideas effectively and confidently in front of an audience. This training helps participants overcome stage fright, develop strong articulation, and use body language to enhance their delivery."
             },
             {
                 "id": 2,
                 "animationDelay": "",
-                "icon": "flaticon-career",
-                "title": "Markets Research",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "icon": "flaticon-speech-bubble",
+                "title": "Leadership Class",
+                "text": " focuses on building the mindset and skills required to become an effective and inspiring leader. This program enhances decision-making capabilities, emotional intelligence, and strategic thinking. "
             },
             {
                 "id": 3,
                 "animationDelay": "",
-                "icon": "flaticon-group",
-                "title": "Consultancy & Advice",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "icon": "flaticon-creativity",
+                "title": "Creative Problem Solving",
+                "text": "is a structured approach to problem-solving that encourages innovation by focusing on user needs. This training helps individuals develop empathy for users, define real problems, and brainstorm creative solutions."
             },
             {
                 "id": 4,
                 "animationDelay": "",
                 "icon": "flaticon-solution-5",
-                "title": "Business Planning",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "title": "Creative Thinking",
+                "text": "enhances an individual's ability to generate innovative ideas and approach problems from fresh perspectives. This training helps break conventional thinking patterns, encouraging participants to embrace curiosity and experimentation. "
             }
         ]
     },
@@ -42,31 +42,31 @@
         "ariaLabelled": "nav-id-2",
         "tabData": [
             {
-                "id": 1,
+                "id": 5,
                 "animationDelay": 0,
                 "icon": "flaticon-business-trip",
-                "title": "Strategy & Planning",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "title": "Digital Amazing Race",
+                "text": "is an exciting, technology-driven team challenge that encourages participants to work together in solving puzzles and completing tasks. Using digital tools and interactive challenges, teams must strategize, communicate effectively, and think critically to progress through the race."
             },
             {
-                "id": 2,
+                "id": 6,
                 "animationDelay": "",
-                "icon": "flaticon-online-store",
-                "title": "Online Business",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "icon": "flaticon-team",
+                "title": "Experiential Team Building",
+                "text": "offers outdoor experiential activities that strengthen teamwork, leadership, and trust among participants. Through physical and mental challenges, individuals learn to collaborate under pressure, develop resilience, and build strong interpersonal relationships."
             },
             {
-                "id": 3,
-                "animationDelay": "",
-                "icon": "flaticon-funds",
-                "title": "Saving & Investments",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
-            },
-            {
-                "id": 4,
+                "id": 7,
                 "animationDelay": "",
                 "icon": "flaticon-career",
-                "title": "Markets Research",
+                "title": "Core Values Intern",
+                "text": "is a program designed to integrate a company’s core values into the daily mindset and behavior of employees. Through engaging activities, discussions, and real-world applications, participants gain a deeper understanding of organizational values and learn how to embody them in their work culture. "
+            },
+            {
+                "id": 8,
+                "animationDelay": "",
+                "icon": "flaticon-development-1",
+                "title": "Board Game Based Learning",
                 "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
             }
         ]
@@ -78,32 +78,55 @@
         "ariaLabelled": "nav-id-3",
         "tabData": [
             {
-                "id": 1,
+                "id": 9,
                 "animationDelay": 0,
-                "icon": "flaticon-budget",
-                "title": "Investment Planning",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
-            },
-            {
-                "id": 2,
-                "animationDelay": "",
-                "icon": "flaticon-money-1",
-                "title": "Mutual Funds",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
-            },
-            {
-                "id": 3,
-                "animationDelay": "",
-                "icon": "flaticon-funds",
-                "title": "Saving & Investments",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
-            },
-            {
-                "id": 4,
-                "animationDelay": "",
                 "icon": "flaticon-world-globe",
                 "title": "Global Business",
-                "text": "Prevailed always tolerably discourse and loser assurance creatively coin applauded more uncommonly. Him everything trouble"
+                "text": "A special program for youth leaders is available to help young individuals build self-control as a fundamental attribute of Growth Mindset Leadership. This program emphasizes the importance of discipline, emotional intelligence, and resilience in leadership. "
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "tabClass": "",
+        "tabId": "tab4",
+        "ariaLabelled": "nav-id-4",
+        "tabData": [
+            {
+                "id": 10,
+                "animationDelay": 0,
+                "icon": "flaticon-learning",
+                "title": "Experiential Learning Session",
+                "text": " is a crucial skill that enables individuals to communicate their ideas effectively and confidently in front of an audience. This training helps participants overcome stage fright, develop strong articulation, and use body language to enhance their delivery."
+            },
+            {
+                "id": 11,
+                "animationDelay": "",
+                "icon": "flaticon-interview",
+                "title": "Corporate Gathering",
+                "text": " focuses on building the mindset and skills required to become an effective and inspiring leader. This program enhances decision-making capabilities, emotional intelligence, and strategic thinking. "
+            },
+            {
+                "id": 12,
+                "animationDelay": "",
+                "icon": "flaticon-group",
+                "title": "Internalisasi Core Values",
+                "text": "is a structured approach to problem-solving that encourages innovation by focusing on user needs. This training helps individuals develop empathy for users, define real problems, and brainstorm creative solutions."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "tabClass": "",
+        "tabId": "tab5",
+        "ariaLabelled": "nav-id-5",
+        "tabData": [
+            {
+                "id": 13,
+                "animationDelay": 0,
+                "icon": "flaticon-start-up",
+                "title": "Design Modul Training",
+                "text": "focuses on creating customized training modules tailored to the specific needs of an organization. By analyzing business challenges, industry demands, and employee development goals, we design structured training programs that deliver measurable results."
             }
         ]
     }
