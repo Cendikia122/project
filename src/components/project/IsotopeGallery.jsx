@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Isotope from 'isotope-layout';
 import Image from 'next/image';
-import Link from 'next/link';
 import Project2Data from '@/assets/jsonData/project/Project2Data.json';
 import shape35 from '@/assets/img/shape/35.png';
 
@@ -36,18 +35,22 @@ const IsotopeGallery = () => {
             {Project2Data.map(item => (
                 <div className={`gallery-item ${item.activeClass}`} key={item.id}>
                     <div className="gallery-style-two">
-                        <Link href={`/project-details/${item.id}`}>
-                            <Image src={`/assets/img/gallery/${item.thumb}`} width={800} height={900} alt="Thumb" onLoad={handleImageLoad} />
-                        </Link>
+                        {/* Gambar tanpa link */}
+                        <Image 
+                            src={`/assets/img/gallery/${item.thumb}`} 
+                            width={800} 
+                            height={900} 
+                            alt="Thumb" 
+                            onLoad={handleImageLoad} 
+                        />
                         <div className="shape">
-                            <Link href={`/project-details/${item.id}`}>
-                                <Image src={shape35} alt="Image Not Found" />
-                            </Link>
+                            <Image src={shape35} alt="Image Not Found" />
                         </div>
                         <div className="overlay">
                             <div className="content">
                                 <span>{item.tag}</span>
-                                <h4><Link href={`/project-details/${item.id}`}>{item.title}</Link></h4>
+                                {/* Hapus Link pada Judul */}
+                                <h4>{item.title}</h4>
                             </div>
                         </div>
                     </div>

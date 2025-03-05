@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "thumb": "5.jpg",
-        "thumbFull": "5-full.jpg",
-        "activeClass": "active",
+        "thumb": "training1.jpg",
+        "thumbFull": "faseldrone.jpg",
+        "activeClass": "",
         "tag": "Consulting, Recruitment",
         "title": "Coping Under the Current Climate",
         "projectData": [
             {
                 "id": 1,
-                "title": "Mobile Optimization",
+                "title": "Internalizing company core values",
                 "info": "See general few civilly amiable pleased account carried. Excellence projecting is devonsh"
             },
             {
                 "id": 2,
-                "title": "Marketing Automation",
+                "title": "Igniting motivation & enthusiasm",
                 "info": "Account carried. Excellence projecting is devonshire dispatched remarkably."
             },
             {
                 "id": 3,
-                "title": "Robust Analytics",
+                "title": "Enhancing trust & communication ",
                 "info": "Civilly amiable pleased account carried. Excellence projecting is devonshire dispatched."
             },
             {
                 "id": 4,
-                "title": "Third-party Integrations",
+                "title": "Engaging & interactive approach",
                 "info": "Amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably."
             }
         ]
     },
     {
         "id": 2,
-        "thumb": "3.jpg",
+        "thumb": "training2.jpg",
         "thumbFull": "3-full.jpg",
         "activeClass": "",
         "tag": "Consulting, Recruitment",
@@ -39,8 +39,8 @@
         "projectData": [
             {
                 "id": 1,
-                "title": "Mobile Optimization",
-                "info": "See general few civilly amiable pleased account carried. Excellence projecting is devonsh"
+                "title": " Internalizing company core values",
+                "info": "Through storytelling, simulations, and deep reflections."
             },
             {
                 "id": 2,
@@ -61,7 +61,7 @@
     },
     {
         "id": 3,
-        "thumb": "2.jpg",
+        "thumb": "training3.jpg",
         "thumbFull": "2-full.jpg",
         "activeClass": "",
         "tag": "Consulting, Recruitment",
@@ -91,7 +91,7 @@
     },
     {
         "id": 4,
-        "thumb": "6.jpg",
+        "thumb": "training4.jpg",
         "thumbFull": "6-full.jpg",
         "activeClass": "",
         "tag": "Consulting, Recruitment",

@@ -30,7 +30,7 @@ const Home1 = () => {
         <ProjectStyle1 />
         <RequestCallStyle1 />
         <TestimonialStyle1 />
-        <BlogStyle1 sectionClass="bg-gray" />
+        {/* <BlogStyle1 sectionClass="bg-gray" /> */}
       </LayoutStyle1>
     </>
   );

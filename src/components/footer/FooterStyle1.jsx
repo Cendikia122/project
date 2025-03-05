@@ -28,7 +28,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                         {logo ? <Image className="logo" src={logo} alt="Logo" /> : <Image className="logo" src={logoLight} alt="Logo" />}
                                     </Link>
                                     <p>
-                                        Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
+                                    🚀 Ready to take your team to the next level with FASEL.inc? Let’s create an unforgettable and impactful experience!
                                     </p>
                                     <div className="opening-hours">
                                         <h5>Service Hours</h5>
@@ -71,19 +71,19 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/services-details/1">Training</Link>
+                                            <Link href="/services/1">Training</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Team Building</Link>
+                                            <Link href="/services/1">Team Building</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Leadership Class</Link>
+                                            <Link href="/services/1">Leadership Class</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Capacity Building</Link>
+                                            <Link href="/services/1">Capacity Building</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Consulting</Link>
+                                            <Link href="/services/1">Consulting</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -112,7 +112,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                             <div className="col-lg-6 text-end">
                                 <ul>
                                     <li>
-                                        <Link href="/faq">Terms</Link>
+                                        <a download href="../api/terms.txt" >Terms</a>
                                     </li>
                                     <li>
                                         <Link href="/about-us">Privacy</Link>
