@@ -9,18 +9,18 @@
         "skillProgress": [
             {
                 "id": 1,
-                "title": "Programming Language",
-                "end": 88
+                "title": "Personal Development Coach",
+                "end": 94
             },
             {
                 "id": 2,
-                "title": "Backend Development",
+                "title": "Train The Trainer",
                 "end": 95
             },
             {
                 "id": 3,
-                "title": "Product Design",
-                "end": 80
+                "title": "Business Coaching",
+                "end": 90
             }
         ],
         "memberData": [
@@ -42,15 +42,15 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
+                        "title": "Certification",
+                        "info": "Master Trainer Level 6 BNSP",
+                        "timeSpan": "2024"
                     },
                     {
                         "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
+                        "title": "",
+                        "info": "Kepala TUK Sertifikasi Public Speaking BNSP",
+                        "timeSpan": ""
                     }
                 ]
             }
