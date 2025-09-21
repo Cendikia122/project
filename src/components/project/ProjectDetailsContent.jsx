@@ -57,7 +57,7 @@ const ProjectDetailsContent = ({ projectInfo }) => {
                 <b>leadership and enthusiasm</b> in every individual.
               </p>
               <p>
-                <b>"Great teams aren&apos;t just built—they are crafted with purpose." </b>
+                <b>&quot;Great teams aren&apos;t just built—they are crafted with purpose.&quot; </b>
               </p>
               <p>
               🚀 Ready to take your team to the next level with <b>FASEL.inc?</b> Let’s create an unforgettable and impactful experience!
