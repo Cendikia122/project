@@ -37,7 +37,7 @@ const ProjectDetailsContent = ({ projectInfo }) => {
                 <div className="col-xl-8 col-lg-7 pr-35 pr-md-15 pr-xs-15 left-info mt-md-10">
                   <h2>FASEL Crafting Collaboration</h2>
                   <p>
-                    Collaboration is not just about working together—it's about creating a strong synergy within the team. <b>FASEL Crafting Collaboration</b> is designed to build trust, strengthen communication, and foster a more solid
+                    Collaboration is not just about working together—it&apos;s about creating a strong synergy within the team. <b>FASEL Crafting Collaboration</b> is designed to build trust, strengthen communication, and foster a more solid
                     work culture through an <b>experiential learning approach</b>.
                   </p>
                   <ul className="check-list">
@@ -57,7 +57,7 @@ const ProjectDetailsContent = ({ projectInfo }) => {
                 <b>leadership and enthusiasm</b> in every individual.
               </p>
               <p>
-                <b>"Great teams aren't just built—they are crafted with purpose." </b>
+                <b>"Great teams aren&apos;t just built—they are crafted with purpose." </b>
               </p>
               <p>
               🚀 Ready to take your team to the next level with <b>FASEL.inc?</b> Let’s create an unforgettable and impactful experience!

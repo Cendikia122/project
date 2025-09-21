@@ -12,7 +12,7 @@ const ServicesStyle2 = () => {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="site-heading text-center">
                                 <h4 className="sub-heading">What we do</h4>
-                                <h2 className="title">Services We're offering</h2>
+                                <h2 className="title">Services We&apos;re offering</h2>
                                 <div className="devider"></div>
                             </div>
                         </div>
