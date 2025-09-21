@@ -5,7 +5,7 @@ import 'react-modal-video/css/modal-video.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-photo-view/dist/react-photo-view.css';
 import 'react-circular-progressbar/dist/styles.css';
-import 'react-rangeslider/lib/index.css'
+import 'rc-slider/assets/index.css';
 
 import '@/assets/css/animate.css';
 import '@/assets/css/font-awesome.min.css';

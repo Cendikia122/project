@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import Slider from 'react-rangeslider';
+import Slider from 'rc-slider';
 import { toast } from 'react-toastify';
 import CustomSelect from '../select/CustomSelect';
 
