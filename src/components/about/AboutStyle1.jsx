@@ -8,6 +8,37 @@ import aboutThumb from "@/assets/img/about/ranggafasel.png"
 import signatureThumb from "@/assets/img/signature.png"
 import About1Card from './About1Card';
 
+export const metadata = {
+  title: "Fasel Consulting | – Training - Leadership| Experiential Learning Indonesia",
+  description:
+    "Fasel, Inc adalah perusahaan teknologi yang menyediakan solusi digital inovatif untuk bisnis Anda.",
+  keywords: ["Experiental Learning", "Solusi Digital", "Teknologi", "Bisnis"],
+  openGraph: {
+    title: "Bantu upgrade perusahaan anda dengan Fasel, Inc!",
+    description:
+      "Fasel, Inc adalah perusahaan teknologi yang menyediakan solusi digital inovatif untuk bisnis Anda.",
+    url: "https://www.fasel.com",
+    siteName: "Fasel, Inc",
+    images: [
+      {
+        url: "https://www.fasel.com/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fasel, Inc - Solusi Digital",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fasel, Inc",
+    description:
+      "Fasel, Inc adalah perusahaan teknologi yang menyediakan solusi digital inovatif untuk bisnis Anda.",
+    images: ["https://www.fasel.com/images/og-image.jpg"],
+  },
+};
+
 const AboutStyle1 = () => {
     return (
         <>

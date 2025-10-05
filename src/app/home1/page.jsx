@@ -14,12 +14,12 @@ import React from "react";
 
 // ✅ SEO untuk halaman ini
 export const metadata = {
-  title: "Fasel, Inc | Solusi Digital Terbaik",
+  title: "Fasel Consulting | – Training - Leadership| Experiential Learning Indonesia",
   description:
     "Fasel, Inc adalah perusahaan teknologi yang menyediakan solusi digital inovatif untuk bisnis Anda.",
-  keywords: ["Fasel", "Solusi Digital", "Teknologi", "Bisnis"],
+  keywords: ["Experiental Learning", "Solusi Digital", "Teknologi", "Bisnis"],
   openGraph: {
-    title: "Fasel, Inc",
+    title: "Bantu upgrade perusahaan anda dengan Fasel, Inc!",
     description:
       "Fasel, Inc adalah perusahaan teknologi yang menyediakan solusi digital inovatif untuk bisnis Anda.",
     url: "https://www.fasel.com",

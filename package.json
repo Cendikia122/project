@@ -16,6 +16,7 @@
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "mongodb": "^6.13.1",
+    "mongoose": "^8.18.1",
     "next": "14.2.8",
     "next-seo": "^6.8.0",
     "openai": "^4.86.1",
