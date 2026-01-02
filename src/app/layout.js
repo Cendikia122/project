@@ -20,6 +20,8 @@ import '@/assets/css/style.css';
 import Dependency from '@/components/utilities/Dependency';
 import { ToastContainer } from 'react-toastify';
 import { Manrope, Outfit } from "next/font/google";
+import Script from 'next/script';
+import FbPixelClient from '@/components/FbPixelClient';
 
 const manrope = Manrope({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
@@ -59,9 +61,32 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${outfit.className} ${manrope.className}`}>
+        {/* Meta Pixel - initialize after interactive */}
+        <Script id="fb-pixel-init" strategy="afterInteractive">
+          {`!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1396576578921257');
+fbq('track', 'PageView');`}
+        </Script>
+
+        {/* Fallback for no-JS */}
+        <noscript>
+          <img height="1" width="1" style={{display:'none'}}
+            src="https://www.facebook.com/tr?id=1396576578921257&ev=PageView&noscript=1" />
+        </noscript>
+
         <ToastContainer />
         <Dependency />
         {children}
+
+        {/* Client component to record PageView on client-side route changes */}
+        <FbPixelClient />
       </body>
     </html>
   );
