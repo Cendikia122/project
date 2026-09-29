@@ -71,19 +71,19 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/services/1">Training</Link>
+                                            <Link href="/services">Training</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services/1">Team Building</Link>
+                                            <Link href="/services">Team Building</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services/1">Leadership Class</Link>
+                                            <Link href="/services">Leadership Class</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services/1">Capacity Building</Link>
+                                            <Link href="/services">Capacity Building</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services/1">Consulting</Link>
+                                            <Link href="/services">Consulting</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -112,7 +112,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                             <div className="col-lg-6 text-end">
                                 <ul>
                                     <li>
-                                        <a download href="../api/terms.txt" >Terms</a>
+                                        <Link href="/about-us">Terms</Link>
                                     </li>
                                     <li>
                                         <Link href="/about-us">Privacy</Link>

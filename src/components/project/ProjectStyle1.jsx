@@ -1,11 +1,28 @@
 "use client"
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Project1Data from "@/assets/jsonData/project/Project1Data.json"
 import SingleProject1 from './SingleProject1';
 
 const ProjectStyle1 = () => {
+    const [events, setEvents] = useState(Project1Data);
+
+    useEffect(() => {
+        async function fetchEvents() {
+            try {
+                const res = await fetch('/api/events');
+                const data = await res.json();
+                if (data.success && data.data && data.data.length > 0) {
+                    setEvents(data.data);
+                }
+            } catch (err) {
+                console.warn('Could not load dynamic events, using default:', err);
+            }
+        }
+        fetchEvents();
+    }, []);
+
     return (
         <>
             <div className="project-style-one-area default-padding bg-dark bottom-shape-light">
@@ -45,7 +62,7 @@ const ProjectStyle1 = () => {
                                             type: 'fraction',
                                         }}
                                     >
-                                        {Project1Data.map(project =>
+                                        {events.map(project =>
                                             <SwiperSlide key={project.id}>
                                                 <SingleProject1 project={project} />
                                             </SwiperSlide>

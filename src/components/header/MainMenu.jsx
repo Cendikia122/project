@@ -26,8 +26,8 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                         <li><Link href="/services">Our Services</Link></li>
                     </ul>
                 </li>
-                <li><Link href="/contact-us">contact</Link></li>
-                <li><Link rel="stylesheet" href="/blog">Blog</Link></li>
+                <li><Link href="/contact-us">Contact Us</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
             </ul>
         </>
     );

@@ -20,13 +20,13 @@ const ContactForm = () => {
     event.preventDefault();
 
     // Format pesan WhatsApp
-    const phoneNumber = "6281234567890"; // Ganti dengan nomor tujuan
-    const message = `Halo, saya ${formData.name}%0AEmail: ${formData.email}%0AHP: ${formData.phone}%0APesan: ${formData.comments}. Terima kasih!`;
-    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    const phoneNumber = "6281298319944";
+    const textMsg = `Halo Fasel Consulting, saya ingin berkonsultasi:\n\nNama: ${formData.name}\nEmail: ${formData.email}\nNo. HP: ${formData.phone}\nPesan: ${formData.comments}\n\nTerima kasih!`;
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(textMsg)}`;
 
     // Reset form dan tampilkan notifikasi
     setFormData({ name: "", email: "", phone: "", comments: "" });
-    toast.success("Pesan Anda telah dikirim ke WhatsApp!");
+    toast.success("Pesan Anda telah siap diteruskan ke WhatsApp!");
 
     // Redirect ke WhatsApp
     window.open(url, "_blank");
